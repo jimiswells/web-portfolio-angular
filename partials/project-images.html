@@ -1,0 +1,39 @@
+<section class="project-images" ng-controller="projectController">
+
+
+    
+
+    <div class="row">
+        <div class="wrapper">
+            
+            <div zum-waypoint="waypoints" down="flags.on" up="flags.off"></div>
+            
+            <div class="large-12 large-centered  columns">
+                <img ng-src="images/{{projects[WhichProject].name}}/imac.png" alt="" class="project-image desaturate " ng-class="{
+    sticky : waypoints.flags.on,
+    notSticky : waypoints.flags.off
+}">
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="large-12 large-centered  columns">
+                <img ng-src="images/{{projects[WhichProject].name}}/ipad.png" alt="" class="project-image desaturate" ng-class="{
+    sticky : waypoints.flags.on,
+    notSticky : waypoints.flags.off
+}">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="large-12 large-centered  columns">
+                <img ng-src="images/{{projects[WhichProject].name}}/iphone.png" alt="" class="project-image desaturate" ng-class="{
+    sticky : waypoints.flags.on,
+    notSticky : waypoints.flags.off
+}">
+            </div>
+        </div>
+
+
+
+
+</section>

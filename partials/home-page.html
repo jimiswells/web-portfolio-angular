@@ -1,0 +1,132 @@
+<a name="intro-anchor"></a>
+<section class="intro">
+
+
+    <div class="row">
+
+        <h1>Creche is the home of <span>Jim Morrison.</span></br>
+(no, not <span class = "giftrigger">that</span>)one.</br>
+Here be some of my work me hearties. </h1>
+    </div>
+
+
+
+
+    <div>sdsdsdsddsd</div>
+
+
+
+</section>
+
+
+
+<!--------------------------------------INTRO ENDS---------------------------------->
+<!--------------------------------------WORK---------------------------------->
+<a name="work-anchor"></a>
+
+<section class="work">
+
+
+    <div class="row title">
+        <h1><span>"Work it"</span></h1>
+        <h1>Beyonce Knowles</h1>
+
+
+    </div>
+
+
+    <div class="row project-thumbnails" ng-controller="projectController">
+
+
+
+
+
+        <div class="columns large-6 large-uncentered medium-6 small-10 small-centered thumbnail desaturate" ng-repeat="project in projects" ng-class="{
+    sticky : waypoints.flags.on,
+    notSticky : waypoints.flags.off
+    
+}">
+            <div zum-waypoint="waypoints" down="flags.on" up="flags.off" offset="20%"></div>
+
+            <a href="#/project/{{projects.indexOf(project)}}">
+                <img ng-src="/images/{{project.name}}.jpg" class="" alt="">
+                <div class="thumbcaption">
+                    <p class="middle-align">{{project.name}}</p>
+                </div>
+        </div>
+        </a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+<!--------------------------------------WORK ENDS---------------------------------->
+
+
+<!--------------------------------------ABOUT ME------------------------------------>
+<section class="about">
+
+    <div class="row title">
+        <h1><span>"Subtraction, subtraction, subtraction"</span></h1>
+        <h1>Cass Mccombs</h1>
+
+
+    </div>
+
+
+    <div class="row main-copy">
+
+        <h1>I like to keep things simple,<br>
+                     but they never usually are</h1>
+    </div>
+
+
+    <div class="row">
+        <div class="columns large-2 large-offset-1">
+            <img src="images/burger-icon.svg" alt="">
+        </div>
+        <div class="columns large-2">
+            <img src="images/cross.svg" alt="">
+        </div>
+        <div class="columns large-2 large-offset-1">
+            <img src="images/burger.svg" alt="">
+        </div>
+        <div class="columns large-2 end">
+            <img src="images/tick.svg" alt="">
+        </div>
+
+
+    </div>
+
+
+
+
+</section>
+
+
+<!--------------------------------------ABOUT-ME ENDS---------------------------------->
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------CONTACT---------------------------------->
+

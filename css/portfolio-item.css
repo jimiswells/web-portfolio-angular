@@ -1,0 +1,119 @@
+.middle-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.prev {
+  width: 150px;
+  height: 50px;
+  position: fixed;
+  left: -140px;
+  top: 600px;
+  z-index: 0;
+  background-color: #f8c0c0;
+  border-right: 10px solid #000;
+  text-align: right;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.prev:hover {
+  left: -90px;
+  cursor: url(../images/cursor1.svg), auto; }
+
+.next {
+  width: 150px;
+  height: 50px;
+  position: fixed;
+  right: -140px;
+  top: 600px;
+  z-index: 0;
+  background-color: #f8c0c0;
+  border-left: 10px solid #000;
+  text-align: left;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.next:hover {
+  right: -90px; }
+
+.backbar {
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+.backbar:hover {
+  cursor: url(../images/cursorback.svg), auto; }
+
+.forwardbar {
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0; }
+
+.forwardbar:hover {
+  cursor: url(../images/cursorforward.svg), auto; }
+
+.intro.afrobeach {
+  background-image: url(../images/afrobeach/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  margin-bottom: 70px; }
+
+.intro.illmind {
+  background-image: url(../images/illmind/gameover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  margin-bottom: 70px; }
+
+.project-intro-text {
+  margin-top: 100px; }
+
+.project.contact {
+  background-color: #f5f5f5;
+  z-index: 1; }
+
+.wrapper {
+  width: 90%;
+  margin: 50px auto;
+  background-color: #f5f5f5; }
+
+.project-intro a {
+  font-size: 3.5em;
+  font-family: "Roboto", sans-serif;
+  color: red; }
+
+footer {
+  z-index: 1; }
+
+/************MEDIA QUERIES*******************/
+/* Desktops and laptops ----------- */
+/*------MOBILE---------*/
+@media only screen and (max-width: 40em) {
+  .project-intro a {
+    font-size: 1.5em; }
+
+  .project-intro-text {
+    font-size: 1em; }
+
+  button {
+    width: 300px; } }
+/*--------mobile landscape------------*/
+/*---------mobile landscape ends---------*/
+/*-------MOBILE ENDS---------*/
+/*----TABLET--------*/
+/*----TABLET ENDS-------*/
+/*-----------TABLET LANDSCAPE-------*/
+/*------------TABLET LANDSCAPE ENDS-------------*/

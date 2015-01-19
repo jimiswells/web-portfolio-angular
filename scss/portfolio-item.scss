@@ -1,0 +1,123 @@
+
+$grey: #f5f5f5;
+$roboto:'Roboto', sans-serif;
+
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.middle-align {
+    @include vertical-align;
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backbar {
+    width:100px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+}
+
+.backbar:hover {
+  
+    cursor: url(../images/cursorback.svg), auto;
+    
+}
+
+
+.forwardbar {
+     width:100px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+  
+}
+
+.forwardbar:hover {
+  
+    cursor: url(../images/cursorforward.svg), auto;
+    
+}
+
+
+
+
+.project {
+    padding: 0;
+}
+
+.project-image {
+    
+  -webkit-transition : all 1s;
+        -moz-transition : all 1s;
+      transition : all 1s;
+}
+.project-image.desaturate.sticky {
+    -webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+filter: grayscale(0%);
+
+   
+}
+
+
+
+.project.contact {
+    background-color:$grey;
+    z-index: 1;
+}
+
+.wrapper {
+    width:90%;
+    margin: 50px auto;
+    background-color: $grey;
+}
+
+.project-intro a {
+    font-size:3.5em;
+    font-family:$roboto;
+    color:red;
+}
+
+footer  {
+    z-index:1;
+}
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+var projectControllers=angular.module("projectControllers",[]);projectControllers.controller("projectController",["$scope","$http",function(o,r){r.get("/projects.json").success(function(r){o.projects=r})}]);

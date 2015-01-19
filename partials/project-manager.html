@@ -1,0 +1,15 @@
+
+      <div ng-controller="projectManagerController">
+
+       
+         <form name="myForm" ng-submit="addProject()">
+      <input type="text" name="projectname" placeholder="name" ng-model="projectName" ng-required="true">
+      <input type="text" name="projectdescription" placeholder="description" ng-model="description" ng-required="true">
+      <button type="submit" ng-disabled="myform.$invalid"
+      ></button>
+    </form>
+    <h2>your meetings </h2>
+    
+    
+    </div>
+   
