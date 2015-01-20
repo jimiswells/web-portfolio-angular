@@ -1,0 +1,130 @@
+/************MEDIA QUERIES*******************/
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    
+
+    
+.navigation {
+    float:right;
+}
+    
+
+
+}
+
+/*------MOBILE---------*/
+
+@media only screen and (max-width: 40em) {
+    
+    
+header {
+    text-align: center;
+  
+}
+    
+header.logo{
+      font-size: 2em;
+}
+    
+p {
+    padding: 0;
+}
+    
+    
+.forwardbar {
+    display: none;
+}
+        
+.backbar {
+    display:none;
+}
+    
+    
+
+ 
+.navigation {
+    display: inherit;
+}
+    
+
+
+    
+.navigation li {
+        margin: 0;
+       
+    }
+    
+.intro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    
+.scrollup {
+    bottom: 5%;
+}
+    
+        
+
+    }
+        
+
+
+
+/*--------mobile landscape------------*/
+
+
+
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/*---------mobile landscape ends---------*/
+
+    
+/*-------MOBILE ENDS---------*/
+        
+        
+/*----TABLET--------*/
+        
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    
+    
+    
+.scrollup  {
+        bottom:3%;
+    }
+
+}
+
+    
+    
+/*----TABLET ENDS-------*/
+    
+    
+    
+/*-----------TABLET LANDSCAPE-------*/
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation:landscape) {
+     
+   
+.navigation {
+    display: inherit;
+}
+
+.navigation l1  {
+    margin:0 0 10px 0;
+    
+}
+
+
+}
+    
+
+/*------------TABLET LANDSCAPE ENDS-------------*/
